@@ -78,7 +78,7 @@ Please observe the following standard C coding practices:
   You are welcome to use either the 5x7 or 8x12 fonts we provide.  
   To reference the font file, you'll also need to modify the Makefile.
   
-  Be sure to watch this video on how to [render bitmap fonts](https://www.youtube.com/playlist?list=PLW7kRC02iWTIxCZzo2IKSNpN15lRscCs2).
+  Be sure to watch this video on how to [render bitmap fonts](https:/ls/www.youtube.com/playlist?list=PLW7kRC02iWTIxCZzo2IKSNpN15lRscCs2).
  
  
  # Learning outcomes
