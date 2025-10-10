@@ -28,25 +28,23 @@ void print_triangle(int leftCol, int size)
 
 void print_arrow(int leftCol, int size)
 {
-  for (int i = 0; i < size; i++) { //top part of the arrow
+  //top part of the arrow
+  for (int i = 0; i < size; i++) { 
     for(int j = 0; j < leftCol + size + i; ++j){
       putchar(' ');
     }
     putchar('#');
     putchar('\n');
   }
-  
-  for(int j = 0; j < leftCol; ++j){
-      putchar(' ');
-  }
-  
+  //middle part of the arrow
   for(int j = 0; j < size + 1; ++j){
       putchar('#');
       putchar(' ');
   }
   putchar('\n');
 
-  for (int i = size - 1; i >= 0; i--) { //bottom part of the arrow
+  //bottom part of the arrow
+  for (int i = size - 1; i >= 0; i--) {
     for(int j = 0; j < leftCol + size + i; ++j){
       putchar(' ');
     }
